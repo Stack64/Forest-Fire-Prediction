@@ -50,9 +50,22 @@ streamlit run app.py
 - **Input Features**: Oxygen (%), Temperature (°C), Humidity (%)
 - **Output**: Fire occurrence probability (0-1)
 
+## Deployment
+
+For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
+
+**Quick Deploy to Streamlit Cloud (Recommended):**
+1. Push your code to GitHub
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. Sign in with GitHub and deploy your app
+4. Set main file path: `Forest FIre Prediction/app.py`
+
+Your app will be live in minutes! 🚀
+
 ## Files
 
 - `app.py` - Streamlit web application
 - `model.pkl` - Trained machine learning model
 - `forest_fire.csv` - Training dataset
 - `Forest Fire Prediction.ipynb` - Jupyter notebook with model training code
+- `requirements.txt` - Python dependencies
